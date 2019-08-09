@@ -202,7 +202,7 @@ nav {
 	padding-top: 10px;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -215,11 +215,13 @@ nav ul {
 	flex-direction: row;
 }
   
-nav li {
-	 margin-right:87px;
-	 display: flex;
-     flex-direction: row;
-     justify-content: space-around;
+nav li  a {
+    color: black;
+    text-decoration: none;
+	margin-right:87px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .logo {
